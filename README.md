@@ -7,7 +7,7 @@ The procedure of assesments will be based on MCQ with time limit and also a Proj
 The Final assessment will also have a MCQ session and the final project must br related to an extra topic which is not in syllabus. This extra topic can be taken through online platform or other methods.  
 
 # Project-Details
-The current project is only a prototype of the features and has been developed within speculated time for competion process. The server side scripting of the web page is still needs to be developed and we intend to proceed with the server side scripting as soon as possible.
+The current project is only a prototype of the features and has been developed within speculated time for competion purpose. The server side scripting of the web page is still needs to be developed and we intend to proceed with the server side scripting as soon as possible.
 
 # Languages Used
 HTML
