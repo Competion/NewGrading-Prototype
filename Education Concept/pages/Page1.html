@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page1</title>
+    <link rel="stylesheet" type="text/css" href="Page1StyleSheet.css" />
+</head>
+<body>
+    <div class="bd">
+        <div id="ann">
+            <font face='Bold'>
+                <h1>Announcement</h1>
+            </font>
+        </div>
+
+        <div class="fmt">
+            <br>
+            <p>
+                <font size='6' face='Bold' color="white">
+                    Student  Details
+                </font>
+            </p>
+            <div class="box1">
+                <p>
+                    <font size='5' style="font:'Bold'; margin-left: 10px;" color='Black'>
+                        Name:<br>
+                        <input type="text" size="12" style="font:'Bold'; margin-left: 10px;" color='Black' id="name"><br>
+                    </font>
+                    <font size='5' style="font:'Bold'; margin-left: 10px;" color='Black'>
+                        Reg.No:<br>
+                        <input type="number" style="margin-left: 10px; width:110px" id="reg"><br>
+                    </font>
+                    <font size='5' style="font:'Bold'; margin-left: 10px;" color='Black'>
+                        Email Id:<br>
+                        <input type="email" size="12" style="margin-left: 10px;" id="email"><br>
+                        <br />
+                    </font>
+                    <button type="Submit" style="margin-left: 10px;background-color:#04f1f8;padding:5px;border-radius:25px;" onclick="stu();"><h7>Submit</h7></button><br /><br />
+                </p>
+            </div>
+            <br />
+            <p>
+                <font size='6' face='Bold' color="White">
+                    Assessment
+                </font>
+            </p>
+            <div class="box2">
+                <br />
+                <button type="submit" onclick="mcq();" style="margin-left:10px;padding:5px;border-radius:25px;background-color:#04f1f8"><h7>Take Test</h7></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<h8>Due:</h8><br><br><button onclick="project();" style="margin-left: 10px;background-color:#04f1f8;padding:5px;border-radius:25px"><h7>Report</h7></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp<h8>Due:</h8>
+                <br />
+                <br />
+            </div>
+            <br />
+            <p>
+                <font size='6' face='Bold' color="White">
+                    &nbsp;Query
+                </font>
+            </p>
+            <div class="box3">
+                &nbsp;&nbsp;&nbsp;Please Post Your Queries<br /><br />
+                <input type="text" size="12" id="submit" style="margin-left:10px;">
+                <br />
+                <br />
+                <button type="Submit" onclick="getInput();" style="margin-left:10px;background-color:#04f1f8;border-radius:25px;padding:5px;"><h7>Submit</h7></button><br /><br />
+            </div>
+
+        </div>
+        <button type="button" onclick="goBack();" id="back">Go Back</button>
+    </div>
+    <script type="text/javascript" src="Script1.js"></script>
+</body>
+</html>
