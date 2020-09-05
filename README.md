@@ -13,6 +13,7 @@ The current project is only a prototype of the features and has been developed w
 HTML
 CSS
 Java Script
+c#
 
 # Setting Up
 Clone The Repository In Local Server And access index.html which is the first page of the prototype.
