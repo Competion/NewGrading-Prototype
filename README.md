@@ -17,3 +17,4 @@ c#
 
 # Setting Up
 Clone The Repository In Local Server And access index.html which is the first page of the prototype.
+Please Unzip before you use.
